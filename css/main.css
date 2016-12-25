@@ -1,0 +1,145 @@
+
+
+body{
+	background-color: #212121;
+	color: #689F38;
+	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
+}
+a{
+	color:#16a085;
+}
+.title{
+	background-color: #263238;
+	margin:0;
+	padding:8px;
+	color:#689F38;
+}
+
+
+div.nav{
+	background-color: #263238;
+	padding:8px;
+}
+div.nav  ul{
+	text-align:center;
+	font-size:120%;
+	color:white;
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+div.nav li{
+	display:inline-block;
+
+	text-align: center
+
+}
+div.nav a{
+	display:block;
+	padding:8px;
+
+}
+div.nav a.active{
+	color:orange;
+}
+div.nav a.active:hover{
+	color:orange;
+	background:black;
+	}
+div.nav a:not(.active)
+{
+	color:#16a085;
+}
+div.nav a:hover{
+	color:#2ecc71;
+	background:#212121;
+}
+div.main{
+	margin-top:1%;
+	padding:8px;
+	background:#121413 ;
+}
+
+footer ul{
+	width:100%;
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+	list-style-type: none;
+}
+
+footer li{
+	display:inline-block;
+}
+
+footer{
+
+  padding: 1rem;
+	background-color: #1c1b19;
+}
+* {
+    box-sizing: border-box;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.sidebar li{
+	background-color: white;
+	padding: 8px;
+	margin:2px;
+}
+.sidebar ul{
+	list-style-type: none;
+	padding: 0;
+	margin:0;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+
+    }
+}
+
+.proj-box ul{
+	list-style-type:none;
+	overflow:hidden;
+	margin: 0;
+	padding:0;
+}
+.proj-box li{
+	background-color: #22313F;
+	display:inline-block;
+	padding:8px;
+	margin:10px;
+	max-width:500px;
+	vertical-align: text-top;
+
+
+	overflow:visible;
+}
+span.status-label {
+	color:#95a5a6;
+	font-weight: bold;
+}
