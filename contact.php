@@ -34,8 +34,14 @@
 		</div>
 		<div class="row">
 			<div class ="col-10">
-				<div class ="main">
-					<p>In this website ill try to post every project im working on. Im a student of Software Engenieering at UTP " Universidad Tecnologica de Panamá. Yes, Im panamenian. I know a little bit of everything, from game development to software development. This website was made by me from scrath to learn HTML/CSS, javascript and php. Basically Web Design.</p>
+				<div class ="main contact">
+					<img class ="portrait" src="image/me.jpg" alt="my image">
+					<div class ="contact_info">
+						<p>Name: Carlos Moises Tu&ntilde&oacuten Biddy</p>
+						<p>Email: example@example.com</p>
+						<p>Github: <a href ="https://github.com/Camotubi">https://github.com/Camotubi</a></p>
+					</div>
+
 				</div>
 			</div>
 			<div class="col-2 sidebar">

@@ -1,4 +1,6 @@
-
+img.portrait{
+	height: 300px;
+}
 
 body{
 	background-color: #212121;
@@ -61,6 +63,17 @@ div.main{
 	background:#121413 ;
 }
 
+div.contact_info{
+	display:inline-block;
+}
+img.portrait{
+	vertical-align: top;
+	display:inline-block;
+	width:140px;
+	height:140px;
+	border: 2px dotted #689F38 ;
+	padding:8px;
+}
 footer ul{
 	width:100%;
 	text-align: center;
