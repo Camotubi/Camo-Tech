@@ -60,7 +60,9 @@
 									<p>An Algorithm to solve equations.</p>
 									<a href="https://github.com/Camotubi/Gaus-Jordan">Source Code</a>
 
-
+									<?php
+										include("scripts/githubRepos.php");
+									 ?>
 						</ul>
 					</div>
 				</div>
