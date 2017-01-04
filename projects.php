@@ -31,7 +31,6 @@
 		</div>
 
 <div id="ads">
-
 		</div>
 		<div class="row">
 			<div class ="col-10">
@@ -78,9 +77,4 @@
 		</div>
 		<?php include("footer.php");?>
 	</body>
-
-
-
-
-
 </html>
