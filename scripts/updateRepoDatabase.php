@@ -1,7 +1,7 @@
 <?php
   $servername="localhost";
   $username="camoS";
-  $password="carlosnek86";
+  $password="efgvwrtgs";
   $dbname="Repositories";
   $tablename="repos";
   $uRL = "https://api.github.com/users/Camotubi/repos";
